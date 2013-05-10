@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedEsentMapper", "ManagedEsentMapper\ManagedEsentMapper.csproj", "{670BE66F-E5B5-4716-88A5-D06403EBF3A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockSample", "StockSample\StockSample.csproj", "{03B167D2-097D-4185-85CA-866D2525B083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{670BE66F-E5B5-4716-88A5-D06403EBF3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670BE66F-E5B5-4716-88A5-D06403EBF3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670BE66F-E5B5-4716-88A5-D06403EBF3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670BE66F-E5B5-4716-88A5-D06403EBF3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B167D2-097D-4185-85CA-866D2525B083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B167D2-097D-4185-85CA-866D2525B083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B167D2-097D-4185-85CA-866D2525B083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B167D2-097D-4185-85CA-866D2525B083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ManagedEsentMapper/bin/Debug
+/ManagedEsentMapper/obj/Debug
+/packages/ManagedEsent.1.8.2/lib/net40
+/StockSample/bin/Debug
+/StockSample/obj/Debug
+*.suo
+*.user
