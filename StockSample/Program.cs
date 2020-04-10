@@ -66,7 +66,7 @@ namespace StockSample
 					Id = Guid.NewGuid(),
 					Description = "Event #" + i,
 					Price = i,
-					StartTime = DateTime.UtcNow,
+					StartTime = DateTime.Today,
 					InstanceNum = i
 				};
 				repo.Add(e);
