@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ManagedEsentMapper\EsentRepository.cs" Link="EsentRepository.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\EsentHelper.cs" Link="Mapping\EsentHelper.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\EsentMap.cs" Link="Mapping\EsentMap.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\ExpressionExtensions.cs" Link="Mapping\ExpressionExtensions.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\IAccessingPart.cs" Link="Mapping\IAccessingPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\IdPart.cs" Link="Mapping\IdPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\IEsentMapper.cs" Link="Mapping\IEsentMapper.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\IEsentPart.cs" Link="Mapping\IEsentPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\IEsentSchemaBuilder.cs" Link="Mapping\IEsentSchemaBuilder.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\IMappingPart.cs" Link="Mapping\IMappingPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\IndexPart.cs" Link="Mapping\IndexPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\ISchemaPart.cs" Link="Mapping\ISchemaPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\MapPart.cs" Link="Mapping\MapPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\Member.cs" Link="Mapping\Member.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\SeekRange.cs" Link="Mapping\SeekRange.cs" />
+    <Compile Include="..\ManagedEsentMapper\Mapping\VersionPart.cs" Link="Mapping\VersionPart.cs" />
+    <Compile Include="..\ManagedEsentMapper\Utility\Latebound.cs" Link="Utility\Latebound.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapping\" />
+    <Folder Include="Utility\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Database.ManagedEsent" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
