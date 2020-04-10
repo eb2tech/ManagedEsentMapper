@@ -9,3 +9,4 @@ packages
 *.user
 *.cache
 _ReSharper*
+.vs
